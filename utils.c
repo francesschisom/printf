@@ -1,11 +1,11 @@
 #include "main.h"
-
 /**
  * is_printable - Evaluates if a char is printable
  * @c: Char to be evaluated.
  *
  * Return: returns 1 if c is printable, otherwise 0.
  */
+
 int is_printable(char c)
 {
 	if (c >= 32 && c < 127)
